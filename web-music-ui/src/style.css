@@ -1,0 +1,203 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #dde2eb;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: auto;
+  position: relative;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 4046343 */
+  src: url("//at.alicdn.com/t/c/font_4046343_5rzjqawrw5h.woff2?t=1684770598052")
+      format("woff2"),
+    url("//at.alicdn.com/t/c/font_4046343_5rzjqawrw5h.woff?t=1684770598052")
+      format("woff"),
+    url("//at.alicdn.com/t/c/font_4046343_5rzjqawrw5h.ttf?t=1684770598052")
+      format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-24gl-link:before {
+  content: "\eb05";
+}
+
+.icon-jiaru:before {
+  content: "\e62b";
+}
+
+.icon-24gf-play:before {
+  content: "\ea83";
+}
+
+.icon-24gl-playlistMusic4:before {
+  content: "\ea72";
+}
+
+.icon-icon-:before {
+  content: "\e649";
+}
+
+.icon-24gl-shuffle:before {
+  content: "\ea75";
+}
+
+.icon-hanhan-01-01:before {
+  content: "\e6ae";
+}
+
+.icon-shanchu2:before {
+  content: "\e600";
+}
+
+.icon-shoucang:before {
+  content: "\e633";
+}
+
+.icon-yinliang:before {
+  content: "\e87a";
+}
+
+.icon-24gl-volumeCross:before {
+  content: "\ea0b";
+}
+
+.icon-shangyishou:before {
+  content: "\e63c";
+}
+
+.icon-xiayishou:before {
+  content: "\e63e";
+}
+
+.icon-24gf-pauseCircle:before {
+  content: "\ea81";
+}
+
+.icon-24gf-playCircle:before {
+  content: "\ea82";
+}
+
+.icon-jushoucang:before {
+  content: "\e643";
+}
+
+.icon-xiazaidaoru:before {
+  content: "\e8c6";
+}
+
+.icon-listen:before {
+  content: "\e721";
+}
+
+.icon-left:before {
+  content: "\e697";
+}
+
+.icon-right:before {
+  content: "\e699";
+}
+
+.icon-sousuo:before {
+  content: "\e651";
+}
+
+.icon-faxian:before {
+  content: "\e631";
+}
+
+.icon-yinle:before {
+  content: "\e63b";
+}
+
+.icon-zhanghao:before {
+  content: "\e632";
+}
+
+.icon-bofangMV:before {
+  content: "\e6a3";
+}
